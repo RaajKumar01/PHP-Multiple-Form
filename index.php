@@ -73,6 +73,7 @@ session_start();
    
    <?php 
                   if(isset($_SESSION["firstName"])) {
+   ?>
 
    <div class="container">
     <table class="table">
@@ -86,7 +87,7 @@ session_start();
         </thead>
         <tbody>
           
-              
+               <?php
                     forEach($_SESSION["firstName"] as $key => $value) {
                       ?>
                             <tr>
@@ -98,12 +99,14 @@ session_start();
                             
                         <?php
                     } 
-                
+             
+               ?>
         </tbody>
       </table>
    </div>
-     }
-               ?>
+  <?php 
+                  }
+    ?>
   
 
     <footer>Copyrights &copy; Raaj Kumar 2021</footer>
