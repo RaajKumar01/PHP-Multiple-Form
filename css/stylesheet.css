@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding:  0;
+  box-sizing: border-box;
+}
+
+h1 {
+    color: rgba(41, 182, 36, 0.918);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    border: 3px solid rgba(105, 211, 18, 0.726);
+}
+
+.container table {
+    color: black;
+    text-align: center;
+}
+
+table input {
+    margin: auto;
+    display: block;
+}
+
+.buttons {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.add-button , .add-button:hover , .add-button:focus {
+    color: white;
+}
+footer {
+    text-align: center;
+    color: rgba(123, 197, 55, 0.877);
+    font-weight: bold;
+    margin-top: 50px;
+}
